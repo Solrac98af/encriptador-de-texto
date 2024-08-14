@@ -1,0 +1,64 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #3498db, #8e44ad);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos campos de texto */
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo do botão de copiar */
+button#copyBtn {
+    background-color: #2ecc71;
+}
+
+button#copyBtn:hover {
+    background-color: #27ae60;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
